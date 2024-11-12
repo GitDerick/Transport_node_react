@@ -1,0 +1,70 @@
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.border-black {
+  border-color: transparent;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-transparent {
+  border: 2px solid black;
+}
+
+.border-black-active {
+  border-color: black;
+  border-width: 2px;
+}
+
+
+.payment-section {
+  display: flex;
+  justify-content: space-between;
+  bottom: 0; /* Ajuste selon votre besoin */
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre plus douce */
+  width: 100%;
+  max-width: 400px; /* Ajustez la largeur maximale selon vos besoins */
+  border: 1px solid #ddd; /* Bordure gris clair */
+  border-radius: 0.375rem; /* Coins arrondis */
+  align-items: center;
+  gap: 1rem; /* Espacement entre les éléments */
+  z-index: 1000; /* Assurez-vous que c'est au-dessus des autres éléments */
+}
+
+.payment-section h2 {
+  font-size: 1.25rem; /* Taille du texte */
+  margin: 0;
+}
+
+.payment-button {
+  padding: 0.75rem 1.5rem; /* Padding plus large pour le bouton */
+  background-color: #000; /* Couleur de fond noir */
+  color: #fff; /* Couleur du texte blanc */
+  border: none; /* Supprimer la bordure par défaut */
+  border-radius: 0.375rem; /* Coins arrondis */
+  font-size: 1rem; /* Taille du texte */
+  cursor: pointer; /* Curseur pointer */
+  transition: background-color 0.3s; /* Effet de transition pour le survol */
+}
+
+.payment-button:hover {
+  background-color: #333; /* Couleur de fond au survol */
+}

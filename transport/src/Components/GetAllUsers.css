@@ -1,0 +1,5 @@
+/* Styles personnalisés pour des bordures plus prononcées */
+.table-bordered th,
+.table-bordered td {
+  border: 2px solid #000 !important; /* Bordures noires et plus épaisses */
+}

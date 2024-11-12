@@ -1,0 +1,207 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+#hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#hero button {
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    font-size: 1em;
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#hero button:hover {
+    background: #e68900;
+}
+
+#services {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#services h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 1em;
+    vertical-align: top;
+    text-align: left;
+    background: #f5f5f5;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+}
+
+.service img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+#pricing {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#pricing h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#pricing p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#pricing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contact {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 1em;
+    padding: 0.5em;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
